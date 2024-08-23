@@ -19,7 +19,7 @@ const SavedBooks = () => {
   const userDataLength = Object.keys(userData).length;
   useEffect(() => {
 
-    const getUserData = async () => {.
+    const getUserData = async () => {
       try {
         const token = Auth.loggedIn() ? Auth.getToken() : null;
         if (!token) {
